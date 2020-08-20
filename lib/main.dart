@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Image.asset('assets/mang.gif'),
+        child: Image.network('https://lh3.googleusercontent.com/proxy/KNTJmCCI8Yai4rukSz0CANiA8iPJ9X1p2Dw4Ez90ZeLEZdQneMQkZT8TgMWhoOeh4VuLNElkMs3MfXcX736ty4cD7TUfFHVwestvQj_9Rc0QjqpRftObm_83OSiWf5LPpDl1E_KKX-pU178XUHRibv68Lg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
