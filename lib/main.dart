@@ -18,6 +18,10 @@ class Home extends StatelessWidget {
         children: <Widget>[
           Expanded(
             flex: 3,
+            child: Image.asset('assets/koya.gif'),
+          ),
+          Expanded(
+            flex: 1,
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.cyan,
@@ -25,7 +29,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 2,
+            flex: 1,
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.pinkAccent,
