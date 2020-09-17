@@ -3,11 +3,7 @@ class Quote {
   String text;
   String author;
 
-  Quote(String text, String author) {
-    this.text = text;
-    this.author = author;
-  }
-
+  Quote({ this.text, this.author });
 }
 
-Quote myquote = Quote('this is the quote text', 'oscar wilde');
+Quote myquote = Quote(author: 'oscar wilde', text: 'this is the quote text');
