@@ -17,6 +17,8 @@ class _QuoteListState extends State<QuoteList> {
     'The truth is rarely pure and never simple',
   ];
 
+  List<String> authors = [''];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
